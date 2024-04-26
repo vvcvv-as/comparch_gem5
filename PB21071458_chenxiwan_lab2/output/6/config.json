@@ -22,7 +22,7 @@
         "m5ops_base": 0,
         "mem_mode": "timing",
         "mem_ranges": [
-            "0:8589934592"
+            "0:536870912"
         ],
         "memories": [
             "system.mem_ctrl.dram"
@@ -1057,7 +1057,7 @@
                     "name": "workload",
                     "path": "system.cpu.workload",
                     "cmd": [
-                        "/home/vvcvv/gem5/gem5-stable/configs/learning_gem5/part1/../../.././lab2-benchmark/spmv"
+                        "/home/vvcvv/gem5/gem5-stable/configs/learning_gem5/part1/../../.././lab2-benchmark/lfsr"
                     ],
                     "cwd": "/home/vvcvv/gem5/gem5-stable",
                     "drivers": [],
@@ -1548,7 +1548,7 @@
                     "leaders": [],
                     "possible_states": []
                 },
-                "range": "0:8589934592",
+                "range": "0:536870912",
                 "ranks_per_channel": 2,
                 "read_buffer_size": 32,
                 "tAAD": 1250,
